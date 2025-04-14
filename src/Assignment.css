@@ -1,0 +1,74 @@
+/* Fullscreen layout */
+.full-screen {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #fc5c7d, #6a82fb); /* Hot pink to purple blue */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', 'Montserrat', sans-serif;
+}
+
+/* Card-style container */
+.assignment-container.card {
+  background-color: #22223b; /* Dark blue-purple */
+  padding: 40px 60px;
+  border-radius: 24px;
+  box-shadow: 0 10px 25px rgba(252, 92, 125, 0.3); /* Pink shadow */
+  text-align: center;
+}
+
+/* Headings */
+.title {
+  font-size: 32px;
+  color: #f0e6ef; /* Pale pink */
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #c4fcef; /* Mint */
+  margin-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.section-title {
+  font-size: 22px;
+  color: #fcba03; /* Gold */
+  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+/* Vertical button list */
+.assignment-buttons-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+/* Buttons with new theme */
+.assignment-buttons-vertical button {
+  width: 220px;
+  padding: 12px 20px;
+  background-color: #ff3e78; /* Hot pink */
+  color: #ffffff; /* White */
+  border: none;
+  border-radius: 14px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.assignment-buttons-vertical button:hover {
+  background-color: #33d6a6; /* Turquoise */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(51, 214, 166, 0.5);
+}
+
+
